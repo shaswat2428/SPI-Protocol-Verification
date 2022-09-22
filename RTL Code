@@ -28,7 +28,7 @@ output reg sclk,cs,mosi
     end
   end
   
-  //////////////////state machine
+  ///////////////////state machine
     reg [11:0] temp;
     
   always@(posedge sclk)
